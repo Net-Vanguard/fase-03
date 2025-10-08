@@ -90,7 +90,7 @@ https://miro.com/welcomeonboard/WXFNR1F3MExCYnZ2RXNncGM2c1VqNHBTS29oOGlCZkkvYmk3
 
 <ol>
 <li><strong>Clone the repositories</strong>:
-    <pre><code># Clone the User microservice repository
+    <pre><code>Clone the User microservice repository
 git clone [Link to User Microservice Repository]
    
 
@@ -154,11 +154,8 @@ A nova arquitetura da FCG foi desenhada para ser resiliente, escalável e observ
 
 <h3>Diagrama da Arquitetura e Fluxo de Comunicação dos Microsserviços</h3>
 <p >
-<em>(Insira aqui o seu diagrama de arquitetura. Você pode criá-lo no Miro/Diagrams.net e exportar como imagem)</em>
-
-
-
-<b>********</b>
+https://miro.com/welcomeonboard/WXFNR1F3MExCYnZ2RXNncGM2c1VqNHBTS29oOGlCZkkvYmk3enBzS1Y2MHl2UXh0SHMrNENtYUVodE1JZHltaXZiRXQvV3pKNm4vd3BoNG5JUXJFeHFFcHNVL25KWlpLMVp2UERoR3c1MW4xOFRFcFBPU3IxZ3NjMCtnWnYxVGZzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=35637098032
+<b></b>
 </p>
 
 <p><strong>Descrição do Fluxo:</strong> O cliente interage com o sistema através de um <strong>API Gateway</strong>, que roteia as requisições para os microsserviços de <strong>Usuários</strong>, <strong>Jogos</strong> e <strong>Pagamentos</strong>. O serviço de Jogos utiliza <strong>Elasticsearch</strong> para buscas, enquanto processos assíncronos são delegados a <strong>Funções Serverless</strong>. Todas as alterações de estado são registradas como eventos (<strong>Event Sourcing</strong>), e a <strong>observabilidade</strong> é garantida com logs e traces distribuídos.</p>
@@ -203,7 +200,7 @@ A nova arquitetura da FCG foi desenhada para ser resiliente, escalável e observ
 
 <ol>
 <li><strong>Clone os repositórios</strong>:
-    <pre><code># Clone o repositório do microsserviço de Usuários
+    <pre><code>Clone o repositório do microsserviço de Usuários
 git clone [[Link para o repositório do Microsserviço de Usuários](https://github.com/Net-Vanguard/Fiap-Users.git)]
    
 
